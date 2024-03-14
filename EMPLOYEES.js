@@ -1,21 +1,16 @@
-const users = [
+const employees = [
     {
-    id: 1,
-    name: 'P Sai Kiran',
-    email: 'psaikiran@gmail.com',
-    type: 'admin'
+        id: 1, name: 'Ram',
+        email: 'Ram@gmail.com', department: 'developemnt', experience: '2yrs', designation: 'employee'
     },
     {
-    id: 2,
-    name: 'Srinivas',
-    email: 'vasu@gmail.com',
-    status: 'guest'
+        id: 2, name: 'Lakshmi',
+        email: 'lakshmi@gmail.com', department: 'analyst', experience: '3yrs', designation: 'Team Leader'
     },
     {
-    id: 3,
-    name: 'Thrishank',
-    email: 'thrishank@gmail.com',
-    status: 'admin'
+        id: 3, name: 'Satish',
+        email: 'Satish@gmail.com', department: 'security', experience: '3yrs', designation: 'HR'
     }
-    ];
-    module.exports = users;
+
+];
+module.exports = employees;
